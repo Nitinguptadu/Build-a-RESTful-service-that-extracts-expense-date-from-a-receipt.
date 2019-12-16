@@ -1,0 +1,2 @@
+# Build-a-RESTful-service-that-extracts-expense-date-from-a-receipt.
+Build a RESTful service that extracts expense date from a receipt.Deploy the service on any cloud platform like Heroku/AWS/GCP. The service should contain one API which has the following contract:  Request: POST /extract_date  Payload: {“base_64_image_content”: &lt;base_64_image_content>}  Response: If date is present: {“date”: “YYYY-MM-DD”} If date is not present: {“date”: null}
